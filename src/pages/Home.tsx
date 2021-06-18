@@ -29,7 +29,7 @@ const Home = () => {
   };
 
   return (
-    <Page p="16px">
+    <Page p="16px" mx="auto" maxWidth="640px" width="100%">
       <Hero>
         <div>
           <Flex alignItems="center">
