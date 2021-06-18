@@ -15,8 +15,8 @@ const Hero = styled.div`
 const Anchor = styled.a``;
 
 const Home = () => {
-  const [index, setIndex] = useState(0);
-  const { t, setLanguage } = useTranslation();
+  const { t, setLanguage, currentLanguage } = useTranslation();
+  const [index, setIndex] = useState(currentLanguage.code === "en" ? 0 : 1);
 
   const handleItemClick = (index: number) => {
     if (index === 1) {
