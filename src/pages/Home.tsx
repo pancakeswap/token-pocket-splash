@@ -61,7 +61,7 @@ const Home = () => {
       <Box>
         <Box>
           <Button as={Anchor} href="https://pancakeswap.finance" mb="8px">
-            {t("Visit dApp")}
+            {t("Go to PancakeSwap")}
           </Button>
         </Box>
         <Button as={Anchor} href="https://exchange.pancakeswap.finance/#/swap" variant="secondary">
